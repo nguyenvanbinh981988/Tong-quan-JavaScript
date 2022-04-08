@@ -18,11 +18,12 @@ Hệ số: <select id="b">
 <input id="demo" type="button" value="Show"> <br>
 
 <script>
-    let demo=document.getElementById("demo");
-    demo.addEventListener("click",clickFuntion);
-    function clickFuntion(){
-        let a= Number(document.getElementById("a").value);
-        let b= Number(document.getElementById("b").value);
+    let demo = document.getElementById("demo");
+    demo.addEventListener("click", clickFuntion);
+
+    function clickFuntion() {
+        let a = Number(document.getElementById("a").value);
+        let b = Number(document.getElementById("b").value);
         alert(a * b);
     }
 
