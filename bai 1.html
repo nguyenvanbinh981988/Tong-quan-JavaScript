@@ -5,6 +5,29 @@
     <title>Title</title>
 </head>
 <body>
+<form action="">
+    Nhập tên: <input id="a"> <br>
+    <input id="demo" type="Submit" name="submit"> <br>
 
+<script>
+    var demo=document.getElementById("demo");
+    var a=document.getElementById("a");
+    demo.addEventListener("mouseover",mouseover);
+    demo.addEventListener("mouseout",mouseout);
+    demo.addEventListener("click",clickfuntion);
+   function mouseover(){
+       document.getElementById("demo").style.background = 'yellow';
+    }
+    function mouseout(){
+       document.getElementById("demo").style.background = 'red';
+    }
+    function clickfuntion(){
+       alert("Xin chào" + " " + a.value);
+    }
+
+</script>
+
+</form>
 </body>
 </html>
+

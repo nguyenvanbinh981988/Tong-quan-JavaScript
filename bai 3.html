@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>User:</p> <input id="a">
+<p>Pass:</p> <input id="b">
+<p>Email:</p> <input id="c">
+<p>Phone:</p> <input id="d">
+<br>
+<button type="button" onclick="demo()">Submit</button>
+<script>
+
+    function demo(){
+    var a= document.getElementById("a").value;
+    var b= document.getElementById("b").value;
+    var c= document.getElementById("c").value;
+    var d= document.getElementById("d").value;
+        console.log("User là " + a);
+        console.log("Pass: " + b);
+        console.log("Email là" + c);
+        console.log("Phone là " + d);
+    };
+</script>
+</body>
+</html>

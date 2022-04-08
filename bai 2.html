@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>phép tính nhân</title>
+</head>
+<body>
+
+    Nhập số 1: <input id="a"><br>
+    Nhập số 2: <input id="b"><br>
+
+    <input id="demo" type="button" value="submit"> <br>
+
+    <script>
+        var demo=document.getElementById("demo");
+        demo.addEventListener("click",clickFuntion);
+        function clickFuntion(){
+            var a= Number(document.getElementById("a").value);
+            var b= Number(document.getElementById("b").value);
+            alert(a + b);
+        }
+
+    </script>
+
+
+</body>
+</html>

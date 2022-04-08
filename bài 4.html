@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>phép tính nhân</title>
+</head>
+<body>
+
+Nhập số: <input id="a"> <br>
+Hệ số: <select id="b">
+    <option value="rd">---Select---</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+</select> <br>
+
+<input id="demo" type="button" value="Show"> <br>
+
+<script>
+    let demo=document.getElementById("demo");
+    demo.addEventListener("click",clickFuntion);
+    function clickFuntion(){
+        let a= Number(document.getElementById("a").value);
+        let b= Number(document.getElementById("b").value);
+        alert(a * b);
+    }
+
+</script>
+
+
+</body>
+</html>
